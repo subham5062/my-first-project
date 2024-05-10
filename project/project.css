@@ -1,0 +1,102 @@
+main{
+    height: auto;
+
+}
+
+nav{
+    height: 5rem;
+    background-color: #0f0617;
+
+}
+
+.collapse>ul{
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+a{
+    color: white !important;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+
+.nav-item{
+    position: relative;
+}
+
+.hidden_list{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    
+}
+
+.buyp{
+    background-color: #8230c6;
+    color: white;
+}
+.lang{
+    width: 10%;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dropli{
+    position: relative;
+}
+
+.dropli>.drop_list{
+    height: 550px;
+    width: 300px;
+    background-color: #0f0617;
+    position: absolute;
+    border-radius: 20px;
+    right: 2px;
+    display: none;
+}
+.dropli:hover .drop_list{
+    display: block;
+    /* position: absolute; */
+    z-index: 1;
+}
+
+.dropli>.drop_list p{
+    width: 100%;
+    height: 40px;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.dropli>.drop_list p:hover{
+    background-color: gray;
+}
+
+.container{
+    width: 100%;
+    height: 30vh;
+    /* background-color: yellow; */
+    /* border: 5px solid orange; */
+}
+
